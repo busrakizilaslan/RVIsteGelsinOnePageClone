@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+        <ImageView
+            android:id="@+id/ivCategory"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sebzemeyve"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meyve, Sebze"
+        android:textSize="10sp"
+        android:textColor="@color/dark_blue"
+        android:fontFamily="@font/k2d"
+        android:layout_gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/istegelsin"
+        android:title="istegelsin"
+        android:icon="@drawable/ic_logo" />
+
+    <item
+        android:id="@+id/search"
+        android:title="arama"
+        android:icon="@drawable/search_icon_grey_24" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="sepetim" />
+
+    <item
+        android:id="@+id/campaigns"
+        android:title="kampanyalar"
+        android:icon="@drawable/campaign_icon_24" />
+    <item
+        android:id="@+id/account"
+        android:title="hesabım"
+        android:icon="@drawable/account_icon_24" />
+
+
+</menu>
