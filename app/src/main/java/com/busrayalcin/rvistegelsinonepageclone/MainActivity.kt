@@ -2,6 +2,7 @@ package com.busrayalcin.rvistegelsinonepageclone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.busrayalcin.rvistegelsinonepageclone.adapter.BannerAdapter
@@ -74,6 +75,9 @@ class MainActivity : AppCompatActivity() {
         val c7 = Categories(7,"dondurma","Dondurma")
         val c8 = Categories(8,"su","Su, İçecek")
         val c9 = Categories(9,"bebek","Bebek")
+        val c10 = Categories(10,"ekmek","Ekmek")
+        val c11 = Categories(11,"kisiselbakim","Kişisel Bakım")
+        val c12 = Categories(12,"temizlikurunleri","Temizlik Ürünleri")
         categoryList.add(c1)
         categoryList.add(c2)
         categoryList.add(c3)
@@ -83,6 +87,9 @@ class MainActivity : AppCompatActivity() {
         categoryList.add(c7)
         categoryList.add(c8)
         categoryList.add(c9)
+        categoryList.add(c10)
+        categoryList.add(c11)
+        categoryList.add(c12)
         val categoryAdapter = CategoryAdapter(this,categoryList)
         binding.rvCategory.adapter = categoryAdapter
 
